@@ -10,22 +10,44 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Sales Performance Analysis | Future Interns Task 1",
-    summary: "An exploratory sales analytics project focused on business performance.",
+    title: "Sales Analytics Dashboard",
+    summary: "An interactive sales analytics dashboard built with Streamlit.",
     detail:
-      "Analyzes sales data to surface performance patterns across products and regions. The repository includes the analysis, charts, and project documentation. Open the project repository to explore the actual outputs and methodology.",
-    tags: ["Python", "pandas", "Data Visualization", "Sales Analytics"],
+      "An interactive sales analytics dashboard designed to explore sales performance, business KPIs, trends, and visual insights through interactive data visualizations. Completed as part of the Future Interns Data Science & Analytics internship.",
+    tags: ["Python", "Streamlit", "Pandas", "Plotly", "Data Visualization"],
     image: "project-images/sales-analytics.svg",
-    github: "https://github.com/manideepak018/FUTURE_DS_01",
+    github: "https://github.com/manideepak018/Sales-Analytics-Dashboard",
+    demo: "https://sales-analytics-dashboard-janzapdmwsewwmg3cozukn.streamlit.app/",
   },
   {
-    title: "Customer Retention & Churn | Future Interns Task 2",
-    summary: "A customer analytics project exploring churn, retention, and customer value.",
+    title: "Customer Retention & Churn Analytics",
+    summary: "A customer analytics dashboard for retention and churn patterns.",
     detail:
-      "Explores customer churn and retention patterns, including customer value analysis. The project uses synthetic customer data, clearly documented in the repository, with charts, exported analysis files, and dashboards.",
-    tags: ["Python", "pandas", "Churn Analysis", "Retention", "CLV"],
+      "A customer analytics dashboard for exploring retention patterns, churn behavior, customer segments, and subscription-related trends. Completed as part of the Future Interns Data Science & Analytics internship.",
+    tags: ["Python", "Streamlit", "Pandas", "Plotly", "Customer Analytics"],
     image: "project-images/churn-analytics.svg",
-    github: "https://github.com/manideepak018/FUTURE_DS_02",
+    github: "https://github.com/manideepak018/CustomerRetentionsChurnAnalytics",
+    demo: "https://customerretentionschurnanalytics-dyb4wz6j9vewgetbashbpg.streamlit.app/",
+  },
+  {
+    title: "Marketing Funnel Conversion Analytics",
+    summary: "An interactive funnel dashboard for conversion stages and drop-offs.",
+    detail:
+      "An interactive marketing funnel dashboard that analyzes conversion stages, drop-offs, channel performance, device performance, and lead journeys. Completed as part of the Future Interns Data Science & Analytics internship.",
+    tags: ["Python", "Streamlit", "Pandas", "Plotly", "Funnel Analytics"],
+    image: "project-images/marketing-funnel.svg",
+    github: "https://github.com/manideepak018/MarketingFunnelConversionAnalytics",
+    demo: "https://marketingfunnelconversionanalytics-udidpsde7uukbcw8qd4w6g.streamlit.app/",
+  },
+  {
+    title: "Diabetes Risk Prediction",
+    summary: "A Flask app that scores diabetes risk from health inputs.",
+    detail:
+      "Trained a Random Forest classifier on the Pima Indians dataset, handled missing values and scaled the features, then served the saved model through a Flask form. Entering values like glucose, BMI and age returns a prediction with the model's confidence.",
+    tags: ["Python", "Flask", "scikit-learn", "pandas"],
+    image: "project-images/diabetes.png",
+    github: "https://github.com/manideepak018/DiabetesPrediction",
+    demo: "https://diabetes-prediction-three-brown.vercel.app/",
   },
   {
     title: "Online Voting System",
@@ -35,15 +57,6 @@ export const projects: Project[] = [
     tags: ["React", "Node.js", "Express", "MongoDB", "JWT"],
     image: "project-images/online-voting.png",
     github: "https://github.com/manideepak018/Online-Voting-System",
-  },
-  {
-    title: "Diabetes Risk Prediction",
-    summary: "A Flask app that scores diabetes risk from health inputs.",
-    detail:
-      "Trained a Random Forest classifier on the Pima Indians dataset, handled missing values and scaled the features, then served the saved model through a Flask form. Entering values like glucose, BMI and age returns a prediction with the model's confidence.",
-    tags: ["Python", "Flask", "scikit-learn", "pandas"],
-    image: "project-images/diabetes.png",
-    github: "https://github.com/manideepak018/Diabetes-Prediction",
   },
   {
     title: "Digital Library",

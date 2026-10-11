@@ -3,9 +3,24 @@ export interface Experience {
   org: string;
   period: string;
   points: string[];
+  certificate?: { label: string; href: string; credentialId?: string };
 }
 
 export const experience: Experience[] = [
+  {
+    role: "Data Science & Analytics Intern",
+    org: "Future Interns",
+    period: "Sep – Oct 2026 · 1 month",
+    points: [
+      "Completed a one-month internship program in Data Science & Analytics.",
+      "Related analytics work: sales performance, customer retention and churn, and marketing funnel conversion dashboards.",
+    ],
+    certificate: {
+      label: "View certificate",
+      href: "certificates/future-interns-certificate.pdf",
+      credentialId: "CIN: FIT/SEP26/DS23554",
+    },
+  },
   {
     role: "Data Science & AI/ML Trainee",
     org: "Grafx IT Solutions",

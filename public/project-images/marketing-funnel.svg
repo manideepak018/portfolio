@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Marketing funnel preview">
+  <rect width="640" height="400" fill="#0B0D11"/>
+  <rect x="24" y="24" width="592" height="352" fill="none" stroke="#232831"/>
+  <polygon points="90,90 550,90 470,170 170,170" fill="#FFB454" opacity="0.9"/>
+  <polygon points="170,186 470,186 415,256 225,256" fill="#FFB454" opacity="0.6"/>
+  <polygon points="225,272 415,272 370,332 270,332" fill="#FFB454" opacity="0.35"/>
+  <text x="320" y="135" text-anchor="middle" font-family="monospace" font-size="18" fill="#0B0D11">Visits</text>
+  <text x="320" y="225" text-anchor="middle" font-family="monospace" font-size="18" fill="#0B0D11">Leads</text>
+  <text x="320" y="307" text-anchor="middle" font-family="monospace" font-size="18" fill="#0B0D11">Customers</text>
+</svg>

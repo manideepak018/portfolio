@@ -42,10 +42,11 @@ export default function Projects() {
                       href={p.github}
                       target="_blank"
                       rel="noreferrer"
-                      className="inline-flex items-center gap-2 font-mono text-sm text-paper hover:text-accent"
+                      aria-label={`View ${p.title} source code on GitHub`}
+                      className="inline-flex min-h-10 items-center justify-center gap-2 border border-line bg-panel px-4 py-2 font-mono text-sm text-paper transition-colors hover:border-accent hover:text-accent"
                     >
-                      <Github size={16} />
-                      View code
+                      <Github size={16} aria-hidden="true" />
+                      GitHub
                     </a>
                   )}
                   {p.demo && (
@@ -53,10 +54,11 @@ export default function Projects() {
                       href={p.demo}
                       target="_blank"
                       rel="noreferrer"
-                      className="inline-flex items-center gap-2 font-mono text-sm text-paper hover:text-accent"
+                      aria-label={`Open ${p.title} live demo`}
+                      className="inline-flex min-h-10 items-center justify-center gap-2 border border-accent bg-accent px-4 py-2 font-mono text-sm font-semibold text-ink transition-colors hover:bg-transparent hover:text-accent"
                     >
-                      <ExternalLink size={16} />
-                      Live demo
+                      <ExternalLink size={16} aria-hidden="true" />
+                      Live Demo
                     </a>
                   )}
                 </div>
